@@ -1,0 +1,11 @@
+port -a -t omni_api_port_t -r 's0' -p tcp 2122
+port -a -t etcd_port_t -r 's0' -p tcp 2379
+port -a -t omni_api_port_t -r 's0' -p tcp 8080
+port -a -t omni_api_port_t -r 's0' -p tcp 8081
+port -a -t omni_api_port_t -r 's0' -p tcp 8090
+port -a -t omni_log_port_t -r 's0' -p tcp 8091
+port -a -t omni_log_port_t -r 's0' -p tcp 8092
+port -a -t omni_discovery_port_t -r 's0' -p tcp 8093
+port -a -t omni_k8s_port_t -r 's0' -p tcp 8095
+port -a -t talos_api_port_t -r 's0' -p tcp 50000
+port -a -t siderolink_port_t -r 's0' -p udp 50180
